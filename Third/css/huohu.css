@@ -1,0 +1,370 @@
+ul li{list-style: none;}
+a{text-decoration: none;}
+
+body{text-align: center;}
+*{margin: 0px;padding: 0px;}
+
+.display-wrapper-ver{width: 1349px;height: 1866px;border:1px solid #ccc;}
+
+
+
+
+
+/****************************************head start**********************************************/
+.header{width: 1349px;height: 30px;background-color: #424242;}
+.layout{width: 1000px;height: 30px;margin: 0 auto;}
+.fleft{width: 488px;height: 30px;float: left;}
+.fright{width: 317px;height: 30px;float: right;}
+.fleft li{float: left;margin-right: 16px;display: block;position: relative;}
+.new{font-family:"SimSun" ;font-size: 12px;color:#ff0000 ;line-height:12px;position: absolute;top: 0px;left:60px;}
+.Aclass{font-family:"SimSun" ;font-size:12px ;color:#c9c9c9 ;line-height: 30px;display: block;padding: 0 4px;}
+.site-guide-list{width: 54px;height: 30px;padding-right: 15px;*width: 69px;background-image: url("../Image/icons.png");background-position: 100% -466px; }
+.fright li{display: block; float: left;line-height: 30px;border-left: 1px solid rgba(0,0,0,0.2);}
+.btn-pop-win{display:block;line-height: 30px;width: 24px;padding: 0 10px;*width: 44px;font-family: "SimSun";
+			font-size: 12px;color: #fff;}
+.skin{display: block;width: 12px;height:12px;margin: 9px 4px 0 10px;float: left;line-height: 12px;background-color: #ff9501;color: transparent;}
+.green{background-color: #8fc320;}
+.blue{background-color: #0096dd;}
+.huanfu{font-family: "SimSun";font-size: 12px;color: #fff;display: block;padding:0 10px; width: 39px;height: 30px;line-height: 30px;float: left;*width: 59px;}
+.btn-system-set{font-family: "SimSun";font-size: 12px;color: #fff;display: block;float: left;line-height: 30px;padding:0 15px 0 0;}
+.btn-system-record{display: block;float: left;line-height: 30px;font-family: "SimSun";font-size: 12px;color: #fff;padding:0 10px;}
+
+
+/****************************************head end**********************************************/
+
+
+
+
+
+
+
+/****************************************hide start**********************************************/
+#panel-system-set{display: none; width:1349px;height: 213px; padding: 40px 0 10px;border:1px solid #ccc;*height: 263px;background-color: #fbfbfb;}
+.system-detail{width: 978px;height: 181px;padding: 15px 10px;*width: 998px;*height: 211px;border:1px solid #dedede;background-color:#ffffff;margin: auto;}
+.mod-cont{width: 978px;height: 181px;}
+.skin-wrapper{width: 940px;height: 120px;margin: 0 auto;}
+.skin-action{width: 978px;height: 29px;padding: 32px 0 0 0;*height: 61px;}
+.skin-img{width: 135px;height: 92px;padding: 1px;border:1px solid #dedede;*width: 137px;*height: 94px;}
+.skin-name{width: 139px;height: 27px;}
+.skin-wrapper li{width: 139px;height: 123px;float: left;}
+.Normalpa{padding: 0 0 0 20px;}
+.Spcialpa{padding: 0 0 0 2px;}
+.btn_center{margin: auto;width: 166px;height: 29px;}
+.btn-confirm{width: 70px;height: 28px;margin: 0 20px 0 0;background-color:#ffa931;font-family:"Simsun";font-size: 12px;color: #fff;float: left;text-align: center;line-height: 28px;}
+.btn-cancel{width: 70px;height: 28px;background-color:#dedede;font-family:"Simsun";font-size: 12px;color:#000;float: left;text-align: center;line-height: 28px;}
+.moz-radio{width: 48px;height: 20px;padding: 0 0 0 22px;margin: 0 0 0 18px;*width: 70px;display: block;
+			font-family: "SimSun";font-size: 12px;line-height: 20px;color:#333;background-image: url("../Image/skin-icons.png");background-position:-12px -161px;background-repeat: no-repeat;}
+.select{background-position:-12px -188px;}
+.select2{background-position:-12px -161px;}
+.moren{background-image: url("../Image/default.jpg");background-repeat: no-repeat;}
+.jianyue{background-image: url("../Image/color.jpg");background-repeat: no-repeat;}
+.hanghai{background-image: url("../Image/hhsd.jpg");background-repeat: no-repeat;}
+.bali{background-image: url("../Image/lmbl.jpg");background-repeat: no-repeat;}
+.manbu{background-image: url("../Image/mbyd.jpg");background-repeat: no-repeat;}
+.banlan{background-image: url("../Image/blyy.jpg");background-repeat: no-repeat;}
+.colorChange{background-color: #fbfbfb;color: #000;};
+.hoverA{color:#ff9500;text-decoration:underline;}
+
+.site-guide-nav{width: 92px;height: 30px;padding: 0 4px 0 4px;*width:100px;display: block;float: left; position: relative;}
+.drop{width: 99px;height: 126px;background-color: #fbfbfb;position: absolute;top: 30px;left: 0px;display: none;}
+.drop li{display: block; line-height: 30px;height: 30px;width: 92px;padding: 0 4px;text-align: left;}
+
+
+/**************************************hide end**********************************************/
+
+
+
+
+
+
+
+
+/****************************************content start**********************************************/
+
+
+
+
+
+
+
+
+
+
+
+/****************************************part1 start**********************************************/
+.content-wrapper{width: 1349px;height: 1836px;border:1px solid #ccc;padding: 0px 0 0 0;*height: 1866px;background-color: #eee;}
+.content-layout{width: 1000px;height: 1664px;margin: 0  auto;}
+.cont-mod{width: 1000px;height: 50px;margin: 12px 0;line-height: 27px;position: relative;}
+.mod-inner{float: left; width: 180px;height: 50px;background-image: url("../Image/logo.png");background-repeat: no-repeat;background-position: 50% 50%;line-height: 27px;}
+.info-mod{width: 92px;height: 44px;margin: 0 10px 0 0;float: left;}
+.mod-inner-middle{width: 608px;height: 50px;margin: 5px 204px 5px 186px;position: absolute;top: 0px;left:0px;}
+.middle-wrapper{width: 574px;height: 50px;padding:0 16px;*width: 608px;position: absolute;top: 0px;left: 0px;}
+.weather{width: 462px;height: 48px;float: left;}
+b{display: block;float: left;font-family: "SimSun";font-size: 12px;line-height: 24px;color: #777;}
+.time-wrapper{float: right;width: 112px;height: 48px;text-align: right;}
+.pm-01{text-align: left; width: 92px;height: 20px;display: block;font-family: "SimSun";font-size: 12px;line-height: 24px;color: #777;float: left;}
+.weather-show{width: 358px;height: 48px;float:right;}
+.weatherF{width: 175px;height: 48px;float: left;}
+.Img1{width: 34px;height: 34px;float: left;margin: 8px 6px 0 0;}
+.spanStyle{display: block;width: 126px;height: 48px;float: left;font-family: Arial;font-size: 12px;line-height: 24px;color: #777;text-align: left;}
+.R{float: right;}
+.time{width: 84px;height: 38px;font-family: Arial;*font-family:"SimSun" ; font-size: 12px;line-height: 24px;color: #777;text-align: right;}
+.mod-inner-right{width: 203px;height: 50px;float: right;line-height: 27px;position: absolute;top: 0px;right: 0px;}
+.line{width: 180px;height: 20px;margin: 0 0 6px 0; border:1px solid #eee;position: relative;float: right;background-color: #fff;}
+.labClass{font-family: "SimSun";font-size: 12px;display: block;width: 54px;height: 18px;color: #c9c9c9;line-height: 18px;position: absolute;z-index:10 ;left:6px;}
+.ipt-email{display: block;width: 80px;height: 20px;padding: 3px 0;*height: 20px;left: 6px;position: absolute;border:0px;}
+.email-select{float: right; display: block;width: 89px;height: 20px;border-left: 1px solid #ccc;font-family: Arial;font-size: 12px;color:#8f77a5 ;line-height: 20px;}
+.email-password{z-index: 11; width: 132px;height: 20px;padding: 3px 0;*height: 20px;border:0px;display: block; position: absolute;left: 6px;background-color: transparent;}
+.email-login{width: 40px;height: 20px;padding: 1px 0;margin: -1px -1px 0 0;*width: 22px;line-height: 15px;z-index: 20;position: absolute;top:0px;right: 0px;background-color: #ff9501;font-family: "Simsun";font-size: 12px;color: #fff;line-height: 20px;}
+
+/****************************************part1 end**********************************************/
+
+
+
+/****************************************part2 start**********************************************/
+
+
+.cont-engine{background-color: #fff; width: 972px;height:62px;padding: 5px 13px;*width:998px;*height: 72px;border:1px solid #dedede;margin: 0 0 10px 0; }
+.engine-logos{float: left; width: 108px;height: 40px;margin: 20px 4px 0 128px;background-image: url("../Image/icons.png");}
+.cont-engine-container{width:755px;height:52px;padding: 0px 13px;*width:781px;*height: 62px;border:1px solid #ccc;margin: auto;}
+.engine-main{width: 530px;height: 75px;float: left;}
+.engine-ad{width: 160px;height: 30px;margin: 25px 0 0 20px;float: left;border:1px solid #ccc;display: none;}
+.engine-menu{width: 530px;height: 24px;float: left;line-height: 27px;}
+.engine-menu a{display: block;padding: 0 7px;line-height: 24px;width: 40px;*width: 54px; float: left;cursor: pointer;font-family: "Arial";font-size: 14px;color: #333;}
+.engine-action{width: 528px;height: 32px;}
+.engine-key-wrapper{position:relative; background-color: #fff;width: 470px;height: 30px;margin: 0 2px 0 0;border:1px solid #ff9501;float: left;}
+.engine-key-one{position: absolute;left:1px;top:0px;display: block;float: left; width: 442px;height:30px;padding: 8px 0 8px 6px;margin: 0 2px 0 0;*width: 442px;*height:24px;border:none;}
+.engine-btn-bg{width: 52px;height: 32px;float: left;background-color:#ff9501;background-image: url("../Image/icons.png");background-position: -105px -155px;}
+/***************************************part2 end**********************************************/
+
+
+
+
+
+
+
+
+
+
+
+/***************************************part3 start**********************************************/
+.advertise{width: 100%;height: 60px;margin: 0 0 10px 0;}
+.ad-bg{width: 495px;height: 60px; float: left;background-image: url("../Image/tc.jpg");}
+.ad-bg-r{width: 495px;height: 60px; float: right;background-image: url("../Image/xw.jpg");}
+
+/***************************************part3 end**********************************************/
+
+
+
+
+
+
+
+
+
+
+/***************************************part4 start**********************************************/
+.main-top{width: 100%;height: 999px;margin: 0 0 10px 0;}
+.main-site{width: 736px;height:262px;float: left;margin: 0 0 10px 0;background-color:#fff;}
+.top-left{width: 738px;height: 999px;float: left;}
+.top-right{width: 250px;height: 996px;margin: 0 0 10px 0;float: right;background-color: #fbfbfb;}
+.main{border:1px solid #dedede;border-top:2px solid #ff9501;}
+.main-news{width: 736px;height: 721px;float: left;background-color: #fff;margin: 0 0 10px 0;}
+.side-mod{width: 250px;height: 278px;float: left;background-color: #fbfbfb;}
+.side-ad-taobao{width: 250px;height: 250px;float: left;background-image: url("../Image/taobao.jpg");}
+.side-mod-search{width: 250px;height: 72px;float: left;}
+.side-service{width: 250px;height: 366px;float: left;}
+.site-my-list{background-color:#fff ; width: 704px;height: 60px;float: left;padding: 8px 16px;*width: 736px;*height: 76px;}
+.site-my-list li{display: block;width: 100px;height: 30px;float: left;text-align: center;}
+.site-my-list a{margin: auto; display:block;font-family: "SimSun";font-size: 14px;height: 30px; cursor: pointer;line-height: 30px;color: #333;text-align: center;}
+.tab-menu{width: 736px;height: 22px;float: left;border-top: 1px solid #f3f3f3;background-color: #fbfbfb;cursor: pointer;}
+.tab-menu ul{margin: -1px 0 0 0;padding:0 24px;width: 688px;*width: 736px;}
+.tab-menu li{display: block;width: 98px;line-height: 22px;float: left;}
+.tab-menu span{display: block;width: 27px;height: 22px;line-height: 22px;padding: 0 10px;*width: 47px;font-family: "Arial";font-size: 12px;color:#777 ;margin: auto;}
+.site-sys-details{width: 704px;height: 150px;padding: 5px 16px 8px 16px;*width: 736px;height: 163px;float: left;}
+.site-sys-1{width: 704px;height: 150px;}
+.site-sys-1 li{display: block;width: 100px;height: 30px;line-height: 30px;float: left;text-align: center;}
+.site-sys-1 a{display: block;height: 16px;line-height: 30px;font-family: "SimSun";font-size: 14px;cursor: pointer;color: #333;text-align: center;}
+
+.news-menu{width: 736px;height: 33px;border-bottom: 1px solid transparent;}
+.NormalLi{background-color:#fbfbfb ; display: block;border:1px solid #dedede;border-left: none;border-top: none;width: 60px;line-height: 33px;float: left;font-family: "SimSun";font-size: 14px;color: #333;}
+.SpecialLi{display: block;border-right: 1px solid #dedede; border-top: none;width:62px;line-height: 33px;float: left;font-family: "SimSun";font-size: 14px;color: #333;background-color: #fff;}
+.news-detail{width: 736px;height: 686px;margin: 1px 0 0 0;}
+.nd-major{width: 666px;height: 659px;padding: 16px 35px;*width: 736px;*height: 691px;}
+.hot-top{width: 666px;height: 369px;float: left;}
+.hot-left{width: 320px;height: 369px;float: left;}
+.Beiying{width: 320px;height: 238px;float: left;}
+.BeiImg{width: 320px;height: 202px;float: left;background-image: url("../Image/guli.jpg");}
+.BeiIntr{width: 320px;height: 30px;padding:0 2px;*height: 34px;float: left; }
+.IntrA{font-size: 14px;line-height: 30px;font-family: "SimSun";color:#333 ;}
+.img-two-left{width: 148px;height:122px;float: left;}
+.hot-img-two{width: 320px;height: 122px;}
+.img-two-right{width: 148px;height:122px;float: right;}
+.hotImg{width: 148px;height: 86px;float: left;}
+.hotIntr{width: 148px;height: 30px;padding: 2px 0;*height: 34px;}
+.taiwan{background-image:url("../Image/taiwan.jpg");}
+.shipai{background-image:url("../Image/shipai.jpg");}
+
+.hot-bottom{width: 666px;height: 284px;}
+.hot-bottom-left{width: 320px;height: 283px;float: left;border-top: 1px solid #ddd;border-top-style: dashed;}
+.hot-bottom-right{width: 320px;height: 283px;float: right;border-top: 1px solid #ddd;border-top-style: dashed;}
+.hot-bottom-img{width: 320px;height: 88px;padding: 13px 0 6px 0;margin: 0 0 -2px 0;*height: 107px;}
+.bottom-img{width: 148px;height: 86px;float: left;}
+.bottom-img-intr{width: 162px;height: 85px;float: right;}
+.Qiao{background-image:url("../Image/qiao.jpg");}
+.jiaoshi{background-image:url("../Image/jiaoshi.jpg");}
+.intr-top{width: 162px;height:30px;float: left;}
+.intr-bot{width: 162px;height:50px;font:left;text-align: left;}
+.IntrT{display: block;float: left;font-family: "SimSun";font-size: 14px;color: #333;font-weight: bold;line-height: 30px;}
+.IntrF{display: block;float: left;font-family: "SimSun";font-size: 12px;color: #777;line-height: 27px;}
+
+.item-list{width: 320px;height: 180px;}
+.item-list li{display: block;float: left;text-align: left;width: 311px;height: 30px;line-height: 30px;padding: 0 0 0 9px;*width: 320px;}
+.item-list a{display: block;width: auto;height: 16px;line-height: 30px;font-size: 14px;font-family: "SimSun";color:#333 ;}
+
+.hot-right{width: 320px;height: 367px;float: right;}
+.right-top{width: 320px;height: 180px;margin: -6px 0 6px 0;float: left;padding: 0 0 6px 0;}
+.right-top li{display: block;float: left;text-align: left;width: 311px;height: 30px;line-height: 30px;padding: 0 0 0 9px;*width: 320px;}
+.right-top a{display: block;width: auto;height: 16px;line-height: 30px;font-size: 14px;font-family: "SimSun";color:#333 ;}
+.Addborder{border-bottom: 1px solid #ddd;border-bottom-style: dashed;}
+
+
+
+
+.side-notice{width: 230px;height: 38px;padding: 0 10px;*width: 250px;border-bottom: 1px solid #ddd;border-bottom-style: dashed;}
+.Title{font-size: 14px;font-family: "SimSun";line-height: 38px;color:#ff9600;font-weight: bold;float: left;}
+.sideA{display: block;float: left; width: auto;height: 16px;line-height: 38px;font-size: 14px;font-family: "SimSun";color:#333 ;}
+.Tul{width: 250px;height: 180px;float: left;padding: 0px;margin: 0px;border-bottom: 1px solid #ddd;border-bottom-style: dashed;}
+.Tul li{display: block; width: 227px;height: 30px;float: left;padding: 0 15px 0 8px;*width: 250px;line-height: 30px;}
+.SmallImg{float: left; width:22px;height: 21px;background-image: url("../Image/icons.png");background-position:-157px -221px ;margin: 5px 0 5px 0;}
+#No1:hover{background-position:-121px -221px ;}
+.img1{background-position: -157px -252px;}
+.img1:hover{background-position: -121px -252px;}
+.img2{background-position: -157px -283px;}
+.img2:hover{background-position: -121px -283px;}
+.img3{background-position: -157px -321px;}
+.img3:hover{background-position: -121px -321px;}
+.img4{background-position: -157px -361px;}
+.img4:hover{background-position: -121px -361px;}
+.img5{background-position: -157px -401px;}
+.img5:hover{background-position: -121px -401px;}
+
+.first{display: block;float: left;padding: 0 0 0 4px;  width: auto;height: 16px;line-height: 30px;font-size: 14px;font-family: "SimSun";color:#333 ;}
+.mid{padding: 0 0 0 14px;}
+.last{font-size: 12px;color:#858891;height: 30px;float: right; }
+.side-engine-google{width: 230px;height: 28px;padding: 15px 10px;*width: 250px;*height: 58px;float: left;}
+.box{width: 228px;height:26px;border:1px solid #ff9501;position: relative;background-color: #fff;}
+.side-engine-key{float: left; line-height: 26px; display: block; width: 118px;height: 26px;padding: 6px 0;margin: 0 0 0 6px;*height:14px;position: absolute;top: 0;left: 1px;border:none; }
+.side-engine-search{width: 48px;height: 26px;float: right;font-family: "SimSun";font-size: 12px;color: #fff;background-color: #ff9501;line-height: 26px;}
+.side-recomend {width: 250px;height: 24px;float: left;margin: -10px auto 10px auto;padding: 0 0 0 10px;}
+.side-recomend a{display: block;width: 57px; height: 27px;line-height:27px;font-size: 12px;font-family: "SimSun";color: #333;float: left; }
+.tool-recharge-title{border-top:1px solid #ff9501; ; font-weight: bold; *width: 250px;width: 230px; height:38px;padding: 0 10px;font-family: "Simsun";font-size:14px;line-height: 38px;color: #ff9600;text-align: left;}
+.service-tool{width: 250px;height: 72px;float: left;}
+.recharge-wrapper{width: 230px;height:24px;margin: 0 10px;background-color: #fff;border:none;}
+.Autumn{width: 250px;height: 94px;margin:0 auto;float: left;background-image: url("../Image/Autumn.jpg");}
+.tel-section{position: relative; width: 188px;height:22px;border: 1px solid #ddd;float: left;}
+.tel-submit{display: block;float: right; width: 40px;height:24px;background-color:#ff9501;color: #fff;line-height: 24px;font-family:"Simsun";font-size: 12px;border:none; }
+.J_TelInput{position: absolute;left: 1px;display: block;width: 104px;height:22px;padding: 3px 0;
+			*height: 16px;border:none;border-right: 1px solid #ddd;}
+.listUL{width: 230px;height: 208px;padding: 1 10px;*width: 250px;float: left;}
+.listUL li{display: block;width: 230px;height: 30px;}
+.firstA{display: block;float: left; width: 60px;height: 16px;line-height:30px;font-size: 14px;font-family: "Simsun";color: #333;text-align: right;}
+.fgt{display: block;padding: 0 0 0 5px; line-height:30px;font-size: 14px;font-family: "Simsun";color: #7d337d;text-align: center;float: left;}
+.lastA{display: block;padding: 0 0 0 3px; float: left; width: 155px;height: 16px;line-height:30px;font-size: 14px;font-family: "Simsun";color: #333;text-align: left;}
+.J_Dnomination{display: block;float: right; width: 69px;height: 22px;padding: 2px 0 0 0;*height: 18px;
+				font-size: 13px;line-height:16px;color: #777;border:none;}
+
+
+
+
+/***************************************part4 end**********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************part5 start**********************************************/
+.main-mod{*width: 1000px;*height: 215px; width: 998px;height: 200px;padding: 6px 0px;margin: 0 0 10px 0;border:1px solid #dedede;border-top:2px solid #ff9501;background-color: #fbfbfb;}
+.rank-mod{width: 208px;height: 182px;padding: 9px 20px;*width: 249px;*height: 200px;float: left;border-right: 1px solid #dedede;}
+.rank-mod p{font-size: 14px;font-family: "SimSun";line-height: 14px;color:#ff9600;font-weight: bold;text-align: left;}
+.rank-mod ul{width: 208px;height: 162px;float: left;margin: 15px 0 0 0;}
+.rank-mod li{display: block; width: 208px;height: 27px;float: left;text-align: left;line-height: 27px;position: relative;}
+.Visible{display: block;width: 14px;height: 14px;line-height: 14px; background-color: #fd9500;font-family:"Arial";position: absolute;top: 25%;left: 0px;font-size: 10px;text-align: center;color: #ffffb5}
+.rank-mod a{display: block;float: left; width: auto;height: 27px;line-height: 27px;font-size: 14px;font-family: "SimSun";color:#333 ;margin: 0 0 0 18px;}
+.grey{background-color: #b9b9b9;}
+i{margin-right: 2px;font-size: 12px;line-height: 27px;font-family: "Arial";color:#8588a3;float: right;}
+.SocialImg{width: 208px;height: 124px;margin: 15px 0 8px 0;}
+.A{width: 192px;height: 124px;background-image:url("../Image/fox.jpg");}
+.forum-key-wrapper{width: 170px;height: 22px;border: 1px solid #ddd;float: left;position: relative;background-color: #fff;}
+.enginelab{font-family: "SimSun";font-size: 12px;display: block;width: 54px;height: 18px;color: #c9c9c9;line-height: 18px;position: absolute;left:0px;z-index: 10;top: 1px;}
+.engine-key{display: block;width: 154px;height: 22px;padding: 3px 0;*height: 22px;margin: 0 0 0 6px;z-index:9;line-height: 24px;position: absolute;left: 0px;top: 0px;border:none;}
+.forum-btn{width: 40px;height: 24px;background-color: #ff9501;position: absolute;font-family:"Arial" ;left:170px;top: -1px;font-size:12px ;color:#fff;line-height: 24px;}
+.engine-forum{width: 210px;height: 24px;margin: 10px auto 0 auto;}
+
+.rank-modch{width: 208px;height: 182px;padding: 9px 20px;*width: 249px;*height: 200px;float: left;border-right: 1px solid #dedede;}
+.rank-modch p{font-size: 14px;font-family: "SimSun";line-height: 14px;color:#ff9600;font-weight: bold;text-align: left;}
+.rank-modch ul{width: 208px;height: 162px;float: left;margin: 15px 0 0 0;}
+.rank-modch a{display: block;float: left; width: auto;height: 27px;line-height: 27px;font-size: 14px;font-family: "SimSun";color:#333 ;}
+.rank-modch li{display: block; width: 208px;height: 27px;float: left;text-align: left;line-height: 27px;position: relative;}
+
+
+.rank-modcht{width: 208px;height: 182px;padding: 9px 20px;*width: 249px;*height: 200px;float: left;border-right: 1px solid #dedede;}
+.rank-modcht p{font-size: 14px;font-family: "SimSun";line-height: 14px;color:#ff9600;font-weight: bold;text-align: left;}
+.rank-modcht ul{width: 208px;height: 162px;float: left;margin: 15px 0 0 0;}
+.rank-modcht a{display: block;float: left; width: auto;height: 27px;line-height: 27px;font-size: 14px;font-family: "SimSun";color:#333 ;}
+.rank-modcht li{display: block; width: 95px;height: 27px;float: left;text-align: left;line-height: 27px;position: relative;}
+
+
+/***************************************part5 end**********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************content end**********************************************/
+
+
+
+
+
+
+
+
+/***************************************part6 start**********************************************/
+
+.footer-engine{width: 1349px;height: 60px;padding: 10px 0;*height: 80px;}
+.engine-wrapper{width: 700px;height: 40px;margin: 10px auto;position: relative;}
+.engine-key2{position: absolute;left:1px;top:0px;display: block;float: left; width: 442px;padding: 8px 0 8px 6px;margin: 0 2px 0 0;*width: 442px;height: 30px;*height:24px;border:0px;}
+.logos-Baidu{width: 98px;height: 40px;float: left;}
+.logos-Baidu a{display: block;float: left;width: 90px;height: 40px;background-image: url("../Image/icons.png");background-position: 0px -2px;}
+
+.engine-out{width: 528px;height: 32px;margin: 0 0 0 98px;}
+
+
+/***************************************part6 end**********************************************/
+
+
+
+
+
+.footer{background-color:#424242; width: 1349px;height: 60px;border:1px solid #ccc;padding: 10px 0 10px 0;margin: 10px 0 0 0;*height: 80px;}
+.foot-layout{width: 1000px;height: 27px;margin: 0 auto;}
+.foot-layout a{display: block;float: left;width: 48px;height: 14px;font-size: 12px;font-family: "Simsun";color: #ff9600;line-height: 27px;}
+.chfgt{display: block;float: left; width: 3px;height: 14px;padding: 0 8px;*width: 19px;line-height: 27px;font-size: 12px;text-align: center;color: #9fc99f;}
+.foot-layout b{display: block;float: left;height: 14px;font-size: 12px;font-family: "Arial";color: #c9c9c9;line-height: 27px;padding: 0 0 0 18px;font-weight: normal;}
