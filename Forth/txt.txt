@@ -1,0 +1,69 @@
+var flag=1;
+
+var Left=-3;
+function Move(){
+	if (flag==1) {
+	$(".marqueeCon #ul1").show();
+	
+	$(".marqueeCon #ul2").css("z-index","0");
+	$(".marqueeCon #ul2").hide("fast",function(){
+   		$(".marqueeCon #ul2").css("left","-3px");
+ 	});
+	if (Left<=-520) {
+		Left=-3;
+		flag=0;
+		anotherMove();
+		
+		return;
+	}
+	else
+	{
+		$(".marqueeCon #ul1").animate({left: Left+'px'}, "slow");
+		Left-=186;
+	}
+	}
+	else{
+		anotherMove();
+	}
+
+}
+
+
+function anotherMove(){
+	if (flag==0) {
+		$(".marqueeCon #ul2").show();
+		$(".marqueeCon #ul1").css("z-index","0");
+		$(".marqueeCon #ul1").hide("fast",function(){
+   		$(".marqueeCon #ul1").css("left","-3px");
+ 		});
+		if (Left<=-520) {
+			Left=-3;
+			Move();
+			flag=1;
+			return;
+		}
+		else
+		{
+
+			$(".marqueeCon #ul2").animate({left: Left+'px'}, "slow");
+			Left-=186;
+		}
+	}
+	else{
+		Move();
+	}
+
+}
+
+
+
+L=L+62;
+
+var y='<li class='+"hide"++'></li>'
+	$(".marqueeCon #ul1").animate({left:'-'+L+'px'}, "slow");
+	$(".marqueeCon #ul1").append(y);
+	$(".hide").css("left","372px");
+	$(".hide").css("top","0px");
+	var x=$(".marqueeCon #ul1").width();
+	$(".marqueeCon #ul1").css("width",(x+L)+"px");
+	L=L+62;
